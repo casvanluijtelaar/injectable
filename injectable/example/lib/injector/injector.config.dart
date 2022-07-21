@@ -17,8 +17,8 @@ extension GetItInjectableX on _i1.GetIt {
   _i1.GetIt $initGetIt(
       {String? environment, _i2.EnvironmentFilter? environmentFilter}) {
     final gh = _i2.GetItHelper(this, environment, environmentFilter);
-    gh.factory<_i3.SecondService>(() => _i3.SecondService());
     gh.factory<_i3.FirstService>(() => _i3.FirstService());
+    gh.factory<_i3.SecondService>(() => _i3.SecondService());
     return this;
   }
 }

@@ -2,10 +2,10 @@
 import 'package:injectable/injectable.dart';
 
 @Injectable()
-@Order(2)
+@Order(1)
 class FirstService {}
 
 
 @Injectable()
-@Order(1)
+@Order(2)
 class SecondService {}
