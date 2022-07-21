@@ -235,9 +235,11 @@ packages:
   injectable:
     dependency: "direct main"
     description:
-      path: "../injectable"
-      relative: true
-    source: path
+      path: injectable
+      ref: testing
+      resolved-ref: ef213af0efa1604bf3d85099925cb85b02812ff3
+      url: "https://github.com/casvanluijtelaar/injectable.git"
+    source: git
     version: "1.5.3"
   io:
     dependency: transitive
