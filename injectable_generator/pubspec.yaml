@@ -16,9 +16,12 @@ dependencies:
   analyzer: ^3.0.0
   code_builder: ^4.1.0
   dart_style: ^2.0.3
-  injectable:    
-     path: ../injectable
+  injectable:
+    git:
+      url: git://github.com/casvanluijtelaar/injectable.git  
+      path: injectable
   collection: ^1.15.0
+
 dev_dependencies:
   build_runner: ^2.1.2
   build_test: ^2.1.3
