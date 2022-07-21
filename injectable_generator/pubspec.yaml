@@ -18,8 +18,9 @@ dependencies:
   dart_style: ^2.0.3
   injectable:
     git:
-      url: git://github.com/casvanluijtelaar/injectable.git  
+      url: https://github.com/casvanluijtelaar/injectable.git  
       path: injectable
+      ref: testing
   collection: ^1.15.0
 
 dev_dependencies:
